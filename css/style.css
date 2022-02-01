@@ -44,12 +44,12 @@ header {
     padding: 0 1em;
 }
 
-li {
+.header-menu li {
     margin-right: 1.2em;
     padding-bottom: 1em;
 }
 
-li a {
+.header-menu li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -82,3 +82,51 @@ h1 {
     margin-top: 1em;
 }
 /* Main */
+/* Footer */
+footer {
+    background-color: lightgrey;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer-menu {
+    list-style-type: none;
+    display: flex;
+    padding: 0 1em
+}
+
+.footer-menu li {
+    margin-right: 1.2em;
+    padding-bottom: 1em;
+}
+
+.footer-menu li::before {
+    content: "\2022";
+    color: grey;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.footer-menu li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.languages {
+    display: flex;
+    align-items: center;
+}
+
+.languages img {
+    margin-right: 1em;
+}
+/* Footer */
