@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    border-bottom: 1px solid grey;
+}
+
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 5%;
+}
+
+.user-fake {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.logo {
+    display: flex;
+    padding: 1em;
+}
+
+.header-menu {
+    list-style-type: none;
+    display: flex;
+    padding: 0 1em;
+}
+
+li {
+    margin-right: 1.2em;
+    padding-bottom: 1em;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.active {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+
+.active a {
+    color: blue;
+}
+/* Header */
+
+/* Main */
+.paragraph {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 10px;
+}
+
+.faq-container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h1 {
+    margin-top: 1em;
+}
+/* Main */
