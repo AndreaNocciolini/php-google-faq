@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+p {
+    margin-bottom: 1em;
+}
+
 /* Header */
 header {
     border-bottom: 1px solid grey;
